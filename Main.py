@@ -16,6 +16,8 @@ Window.size = (400, 600)
 class SignLanguageApp(App):
 
     def build(self):
+        self.head = Label(text='SignSpeak App', font_size='25sp', size_hint=(1, .1), color = 'black')
+        layout = BoxLayout(orientation='vertical', spacing=10, padding=10)
         # Set up layout
         layout = BoxLayout(orientation='vertical', spacing=10, padding=10)
         
